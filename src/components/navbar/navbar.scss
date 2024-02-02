@@ -1,0 +1,92 @@
+.navbar {
+  height: 50px;
+  border-bottom: 0.5px solid rgb(231, 228, 228);
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #555;
+
+  .wrapper {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .items {
+      display: flex;
+      align-items: center;
+      margin-left: auto; /* Move items to the left side */
+
+      .item {
+        display: flex;
+        align-items: center;
+        margin-right: 25px;
+        position: relative;
+
+        .icon {
+          font-size: 20px;
+        }
+
+        .avatar {
+          width: 25px;
+          height: 25px;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+}
+
+
+.dialog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2196F3;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px 5px 0 0;
+}
+
+.close-icon {
+  cursor: pointer;
+  font-size: 24px;
+  color: #fff;
+}
+
+.dialog-list {
+  padding: 0;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.list-item:hover {
+  background-color: #2196F3;
+  color: #fff;
+}
+
+.list-icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.check {
+  color: green; /* Customize icon color */
+}
+
+event {
+  color: blue;
+}
+
+block {
+  color: red;
+}
+
+/* Add more custom styles for different list items and icons */

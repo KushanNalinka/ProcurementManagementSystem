@@ -1,0 +1,132 @@
+/* styles.css */
+.home {
+  display: flex;
+
+  .homeContainer {
+    flex: 6;
+
+  .App {
+    background: url('https://t4.ftcdn.net/jpg/02/20/67/65/360_F_220676590_4zfuo3TKXbys7xkC4Nx0YYFcMzkCkHTf.jpg') center/cover no-repeat;
+    animation: backgroundSlide 10s linear infinite;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.1); /* Adjust the opacity as needed */
+    padding: 20px;
+    color: white;
+  }
+  
+  @keyframes backgroundSlide {
+    0% {
+      background-image: url('https://t4.ftcdn.net/jpg/02/20/67/65/360_F_220676590_4zfuo3TKXbys7xkC4Nx0YYFcMzkCkHTf.jpg');
+    }
+    25% {
+      background-image: url('https://img.freepik.com/premium-photo/construction-site-with-sunset-large-yellow-crane_900958-6002.jpg');
+    }
+    50% {
+      background-image: url('https://previews.123rf.com/images/gyn9037/gyn90371706/gyn9037170600017/79868870-construction-site-under-the-background-of-the-sky-working-excavator.jpg');
+    }
+    75% {
+      background-image: url('https://media.sortly.com/wp-content/uploads/2022/06/20041907/How-to-store-construction-materials.jpg');
+    }
+    100% {
+      background-image: url('https://c8.alamy.com/comp/2B21FFH/electrician-in-the-electrical-components-store-writes-on-the-notebook-construction-industry-electrical-system-2B21FFH.jpg');
+    }
+  }
+  
+  .input-container {
+    background: rgba(0, 0, 0, 0.5); /* Background color with opacity */
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .input-container input[type="text"] {
+    border: none;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .input-container button {
+    background-color: #FF5733;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .input-container button:hover {
+    background-color: #E94E29;
+  }
+  /* styles.scss */
+.add-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  background-color: #2196F3;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-icon:hover {
+  background-color: #1e88e5; /* Hover color */
+}
+
+  .movie-item {
+    background: rgba(0, 0, 0, 0.7); /* Background color with opacity */
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+  }
+  
+  .movie-item h1 {
+    font-size: 24px;
+    color: #FFD700; /* Gold color */
+  }
+  
+  .movie-item p {
+    margin: 10px 0;
+  }
+  
+  .movie-item button {
+    background-color: #33FF57;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .movie-item button:hover {
+    background-color: #1BB748;
+  }
+  
+  .report-button {
+    background-color: #2E86C1; /* Blue color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .report-button:hover {
+    background-color: #1F5A93;
+  }
+}
+}

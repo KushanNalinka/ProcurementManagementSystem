@@ -1,0 +1,122 @@
+.hom {
+    display: flex;
+    position: sticky;
+  
+    .homeCon {
+      flex: 6;
+      position: sticky;
+     
+     
+  @keyframes backgroundSlides {
+    0% {
+      background-image: url('https://theconstructor.org/wp-content/uploads/2022/02/Construction-Sites-1.jpg');
+    }
+    25% {
+      background-image: url('https://www.designingbuildings.co.uk/w/images/1/1d/Offsiteconstruction.jpg');
+    }
+    50% {
+      background-image: url('https://seagirl.pt/wp-content/uploads/2017/07/Shipbuilding-1140x700.jpg');
+    }
+    75% {
+      background-image: url('https://www.lcs-cablecranes.com/wp-content/uploads/lcs_cablecranes_Sektoren-Staudammbau.jpg');
+    }
+    100% {
+      background-image: url('https://i.ytimg.com/vi/13qOE2N_AKs/maxresdefault.jpg');
+    }
+  }
+  .Inpu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    //height: 100vh;
+   /* background: linear-gradient(
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.3)
+      ),
+      url("https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    background-size: cover;
+    background-position: center;*/
+    background: url('https://theconstructor.org/wp-content/uploads/2022/02/Construction-Sites-1.jpg') center/cover no-repeat;
+    animation: backgroundSlide 10s linear infinite;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.1); /* Adjust the opacity as needed */
+    padding: 20px;
+    color: rgb(56, 13, 166);
+    
+  }
+  
+  form{
+      background-color: white;
+      padding: 0px 60px;
+      border-radius: 10px;
+      background: linear-gradient(
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.3)
+      ),
+      
+  }
+  
+  h1{
+      color: rgb(77, 1, 77);
+      text-align: center;
+  }
+  
+  button{
+      width: 100%;
+      height: 50px;
+      padding: 10px;
+      border: rgba(255, 255, 255, 0.3);
+      background-color: rebeccapurple;
+      color: white;
+      border-radius: 25px;
+      font-weight: bold;
+      font-size: 28px;
+      cursor: pointer;
+      margin-top: 15px;
+      margin-bottom: 30px;
+  }
+  .btn2 {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    background-color: rebeccapurple;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 28px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    display: block;
+    margin: 0 auto; /* Center align horizontally */
+    transition: background-color 0.3s, transform 0.2s;
+    width: 100%; /* Allow the button to take its natural width */
+  
+  }
+  
+  .btn2:hover {
+    background-color: #7b68ee; /* Change color on hover */
+    transform: scale(1.05); /* Add a simple hover animation */
+  }
+  
+  .formInputs1 {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+}
+
+input{
+    padding: 15px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: 1px solid gray;
+   
+}
+
+
+
+  
+}}
